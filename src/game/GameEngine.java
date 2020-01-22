@@ -32,7 +32,7 @@ public class GameEngine implements IAnimationFinishedObserver{
     }
 
     private void generateNewTile(){
-        int exponent = randomGenerator.nextInt(config.maxGeneratedValueExponent-1) + 1;
+        int exponent = randomGenerator.nextInt(config.maxGeneratedValueExponent) + 1;
         Vector2d position = currentBoard.getRandomFreeSpot();
         if(position!=null) {
             currentBoard.set(position, exponent);

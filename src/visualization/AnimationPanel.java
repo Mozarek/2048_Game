@@ -26,7 +26,7 @@ public class AnimationPanel extends JPanel implements IGameStateChangedObserver,
     private int animationTime; // in milliseconds
 
     private static final Color background = new Color(255, 255, 240);
-    private static final Color emptyTile = new Color(150, 150, 150);
+    private static final Color emptyTile = new Color(190, 180, 170);
     private static final Color text = new Color(0, 0, 0);
 
     private final Font numberFont;

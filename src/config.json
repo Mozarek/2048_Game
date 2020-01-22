@@ -1,0 +1,10 @@
+{
+  "width": 4,
+  "height": 4,
+  "targetValueExponent": 11,
+  "maxGeneratedValueExponent": 2,
+  "moveHistorySize": 3,
+  "tilesOnStart": 3,
+  "animationTime": 400,
+  "fps": 50
+}
